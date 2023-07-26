@@ -229,10 +229,10 @@
         </div>
     </section>
 
-    <section class="grid grid-cols-4 items-center gap-6 justify-center max-w-[90rem] mx-auto pt-12">
+    <section class="grid grid-clos4 md:grid-cols-2 lg:grid-cols-4 items-center gap-6 justify-center max-w-[90rem] mx-auto pt-12 px-1 md:px-4">
         <div class="text-center border">
             <img class="px-[7.37rem] block pt-12" src="./images/fruit6.png" alt="">
-            <p class="lato pt-12 pb-6">12.90$ - 18.85% </p>
+            <p class="lato pt-12 pb-6 text-[#121212] text-2xl font-extrabold">12.90$ - 18.85% </p>
             <hr class="max-w-[15rem] mx-auto">
             <p class="pt-6">
                 Apples
@@ -247,9 +247,95 @@
             <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_1.showModal()">Details</p>
             <dialog id="my_modal_1" class="modal">
                 <form method="dialog" class="modal-box">
-                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl items-center">
-                        <div class="pt-10 px-[5rem]">
-                            <img class="w-[21rem] h-[21rem]" src="./images/fruit8.png" alt="">
+                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl flex flex-col items-center">
+                        <div class="pt-10">
+                            <img class="w-[14rem] h-[14rem]" src="./images/fruit6.png" alt="">
+                        </div>
+                        <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Apples</h3>
+                        <p class="Lato text-base text-[#12121299] pt-6 pb-8">
+                            Professional employees are there for you to pick the most <br>
+                            amazing and fresh fruits.
+                        </p>
+
+                        <div class="rating gap-3 py-1">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+
+                        <div class="space-x-4 pb-1 pt-3">
+                            <button class="lato text-[#F85559] btn btn-close rounded- bg-white font-bold">Close</button>
+                            <button class="lato btn btn-error text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </form>
+            </dialog>
+        </div>
+        <div class="text-center border">
+            <img class="px-[7.37rem] block pt-12" src="./images/fruit7.png" alt="">
+            <p class="lato pt-12 pb-6 text-[#121212] text-2xl font-extrabold">12.90$ - 18.85% </p>
+            <hr class="max-w-[15rem] mx-auto">
+            <p class="pt-6">
+                Orange
+            </p>
+            <div class="rating rating-sm gap-2 pt-6 pb-8 Lato ">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_2.showModal()">Details</p>
+            <dialog id="my_modal_2" class="modal">
+                <form method="dialog" class="modal-box">
+                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl flex flex-col items-center">
+                        <div class="pt-10">
+                            <img class="w-[14rem] h-[14rem]" src="./images/fruit7.png" alt="">
+                        </div>
+                        <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Orange</h3>
+                        <p class="Lato text-base text-[#12121299] pt-6 pb-8">
+                            Professional employees are there for you to pick the most <br>
+                            amazing and fresh fruits.
+                        </p>
+
+                        <div class="rating gap-3 py-1">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+
+                        <div class="space-x-4 pb-1 pt-3">
+                            <button class="lato text-[#F85559] btn btn-close rounded- bg-white font-bold">Close</button>
+                            <button class="lato btn btn-error text-white">Buy Now</button>
+                        </div>
+                    </div>
+                </form>
+            </dialog>
+        </div>
+        <div class="text-center border">
+            <img class="px-[7.37rem] block pt-12" src="./images/fruit8.png" alt="">
+            <p class="lato pt-12 pb-6 text-[#121212] text-2xl font-extrabold">12.90$ - 18.85$ </p>
+            <hr class="max-w-[15rem] mx-auto">
+            <p class="pt-6">
+                Red Dragon
+            </p>
+            <div class="rating rating-sm gap-2 pt-6 pb-8 Lato ">
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_3.showModal()">Details</p>
+            <dialog id="my_modal_3" class="modal">
+                <form method="dialog" class="modal-box">
+                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl flex flex-col items-center">
+                        <div class="pt-10">
+                            <img class="w-[14rem] h-[14rem]" src="./images/fruit8.png" alt="">
                         </div>
                         <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Red Dragon</h3>
                         <p class="Lato text-base text-[#12121299] pt-6 pb-8">
@@ -274,11 +360,11 @@
             </dialog>
         </div>
         <div class="text-center border">
-            <img class="px-[7.37rem] block pt-12" src="./images/fruit6.png" alt="">
-            <p class="lato pt-12 pb-6">12.90$ - 18.85% </p>
+            <img class="px-[7.37rem] block pt-12" src="./images/fruit9.png" alt="">
+            <p class="lato pt-12 pb-6 text-[#121212] text-2xl font-extrabold">12.90$ - 18.85$ </p>
             <hr class="max-w-[15rem] mx-auto">
             <p class="pt-6">
-                Apples
+                Banana
             </p>
             <div class="rating rating-sm gap-2 pt-6 pb-8 Lato ">
                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
@@ -287,14 +373,14 @@
                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
             </div>
-            <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_1.showModal()">Details</p>
-            <dialog id="my_modal_1" class="modal">
+            <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_4.showModal()">Details</p>
+            <dialog id="my_modal_4" class="modal">
                 <form method="dialog" class="modal-box">
-                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl items-center">
-                        <div class="pt-10 px-[5rem]">
-                            <img class="w-[21rem] h-[21rem]" src="./images/fruit8.png" alt="">
+                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl flex flex-col items-center">
+                        <div class="pt-10">
+                            <img class="w-[14rem] h-[14rem]" src="./images/fruit9.png" alt="">
                         </div>
-                        <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Red Dragon</h3>
+                        <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Banana</h3>
                         <p class="Lato text-base text-[#12121299] pt-6 pb-8">
                             Professional employees are there for you to pick the most <br>
                             amazing and fresh fruits.
@@ -316,92 +402,7 @@
                 </form>
             </dialog>
         </div>
-        <div class="text-center border">
-            <img class="px-[7.37rem] block pt-12" src="./images/fruit6.png" alt="">
-            <p class="lato pt-12 pb-6">12.90$ - 18.85% </p>
-            <hr class="max-w-[15rem] mx-auto">
-            <p class="pt-6">
-                Apples
-            </p>
-            <div class="rating rating-sm gap-2 pt-6 pb-8 Lato ">
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-            </div>
-            <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_1.showModal()">Details</p>
-            <dialog id="my_modal_1" class="modal">
-                <form method="dialog" class="modal-box">
-                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl items-center">
-                        <div class="pt-10 px-[5rem]">
-                            <img class="w-[21rem] h-[21rem]" src="./images/fruit8.png" alt="">
-                        </div>
-                        <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Red Dragon</h3>
-                        <p class="Lato text-base text-[#12121299] pt-6 pb-8">
-                            Professional employees are there for you to pick the most <br>
-                            amazing and fresh fruits.
-                        </p>
 
-                        <div class="rating gap-3 py-1">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                        </div>
-
-                        <div class="space-x-4 pb-1 pt-3">
-                            <button class="lato text-[#F85559] btn btn-close rounded- bg-white font-bold">Close</button>
-                            <button class="lato btn btn-error text-white">Buy Now</button>
-                        </div>
-                    </div>
-                </form>
-            </dialog>
-        </div>
-        <div class="text-center border">
-            <img class="px-[7.37rem] block pt-12" src="./images/fruit6.png" alt="">
-            <p class="lato pt-12 pb-6">12.90$ - 18.85% </p>
-            <hr class="max-w-[15rem] mx-auto">
-            <p class="pt-6">
-                Apples
-            </p>
-            <div class="rating rating-sm gap-2 pt-6 pb-8 Lato ">
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-            </div>
-            <p class="cursor-pointer text-[#F85559] pb-12" onclick="my_modal_1.showModal()">Details</p>
-            <dialog id="my_modal_1" class="modal">
-                <form method="dialog" class="modal-box">
-                    <div class="max-w-[50rem] max-h-[50rem] bg-white text-center rounded-3xl items-center">
-                        <div class="pt-10 px-[5rem]">
-                            <img class="w-[21rem] h-[21rem]" src="./images/fruit8.png" alt="">
-                        </div>
-                        <h3 class="Lato text-[2.5rem] font-bold text-[#121212]">Red Dragon</h3>
-                        <p class="Lato text-base text-[#12121299] pt-6 pb-8">
-                            Professional employees are there for you to pick the most <br>
-                            amazing and fresh fruits.
-                        </p>
-
-                        <div class="rating gap-3 py-1">
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                        </div>
-
-                        <div class="space-x-4 pb-1 pt-3">
-                            <button class="lato text-[#F85559] btn btn-close rounded- bg-white font-bold">Close</button>
-                            <button class="lato btn btn-error text-white">Buy Now</button>
-                        </div>
-                    </div>
-                </form>
-            </dialog>
-        </div>
 
     </section>
     <!-- end deal of the day section  -->
